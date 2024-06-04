@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyburner Aviation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #e0e0e0;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #004080;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .videos iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skyburner Aviation</h1>
+        <p>Welcome to Skyburner Aviation - Your hub for amazing aviation content!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#latest-videos">Latest Videos</a>
+        <a href="#about-me">About Me</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="home" class="container">
+        <h2>Home</h2>
+        <p>Welcome to Skyburner Aviation! Here you'll find the latest and greatest in aviation videos, blog posts, and more.</p>
+    </section>
+    <section id="latest-videos" class="container videos">
+        <h2>Latest Videos</h2>
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID3" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="about-me" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Iskander. Welcome to Skyburner Aviation, where I share my passion for all things aviation. From breathtaking flight videos to in-depth analyses and tutorials, my channel covers a wide range of aviation topics. Whether you're an aviation enthusiast, a pilot, or just curious about the world of flight, there's something here for you. Subscribe and join me on this exciting journey through the skies!</p>
+    </section>
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Stay tuned for blog posts about the latest in aviation news, behind-the-scenes looks at my videos, and much more!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Skyburner Aviation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
